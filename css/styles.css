@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #E8E8E8;
+}
+#container {
+  margin: 2%;
+}
+#navigation {
+  border: 1px dotted red;
+  overflow: auto;
+}
+#navigation ul {
+  text-align: center;
+}
+#navigation li {
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  list-style-type: none;
+}
+#navigation li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+#logo img, #footer img{
+  max-width: 100%;
+  display: block;
+}
